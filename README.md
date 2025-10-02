@@ -45,7 +45,10 @@ Needs Brief:  design/notes.md
 Wireframe:  design/wireframe-estimator.png
 
  github repo link : https://github.com/bosirejoy33/firstyear-comp.git
+ 
+\\ docker tags https://hub.docker.com/r/bosirejoy33/firstyear-comp/tags
 
  \\ live site : https://bosirejoy33.github.io/firstyear-comp/
+ 
 
 
