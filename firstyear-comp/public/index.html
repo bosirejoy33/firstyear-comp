@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>USIU First-Year Companion (v1)</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header><h1>USIU First-Year Companion</h1></header>
+<main>
+<section>
+<h2 id="greeting">KARIBU!</h2>
+<p>Welcome Freshman,  to your quick orientation helper.</p>
+<p>Starting at a new university can be challenging, but we're here to help! With the USIU First Year Companion, from finding new places to eat around campus or estimating prices to help you stay on top of your budgeting, the helper is here to assist you every step of the way.</p>
+
+</section>
+<section>
+
+<h3>Weekly Summary</h3>
+<pre id="summary">Run the estimator to see your weekly
+plan for an average week in USIU</pre>
+</section>
+<button id="run">Run Estimator</button>
+<button id="theme">Toggle Theme</button>
+</main>
+<footer><medium>USIU Student Affairs- USIU-AFRICA (v1)</medium></footer>
+<script src="script.js"></script>
+
+
+
+<script>
+// Wire up minimal interactions (also shows internal script usage)
+document.getElementById("run").addEventListener("click",
+runEstimator);
+document.getElementById("theme").addEventListener("click",
+toggleTheme);
+</script>
+</body>
+</html>
+
+
